@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+script(type="text/ng-template", id="${1:path/for/template.html}")
+    ${2:div()}
+]]></content>
+    <tabTrigger>ng-template</tabTrigger>
+    <scope>source.jade</scope>
+    <description>=Directive Template (script)</description>
+</snippet>
