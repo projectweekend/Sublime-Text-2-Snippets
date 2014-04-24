@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+directive( '${1:nameOfDirective}', function ( ) {
+    return {
+        restrict: 'E',
+        scope: {
+
+        },
+        templateUrl: "",
+        link: function ( scope, element, attrs ) {
+
+        }
+    };
+} );
+]]></content>
+    <tabTrigger>directive</tabTrigger>
+    <scope>source.js</scope>
+    <description>Directive</description>
+</snippet>
