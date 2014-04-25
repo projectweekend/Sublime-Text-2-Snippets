@@ -6,4 +6,5 @@ controller( '${1:controllerName}', function ( $scope, ${2:otherDependencies} ) {
 ]]></content>
     <tabTrigger>controller</tabTrigger>
     <scope>source.js</scope>
+    <description>Controller</description>
 </snippet>
