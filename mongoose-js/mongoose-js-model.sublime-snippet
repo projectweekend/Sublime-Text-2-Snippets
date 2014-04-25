@@ -7,5 +7,5 @@ ${2:ModelName} = mongoose.model( '${2:ModelName}', ${1:SchemaName} );
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.js</scope>
-    <description>Mongoose Model</description>
+    <description>MongooseJS Model</description>
 </snippet>
