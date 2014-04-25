@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+
+factory( '${1:FactoryName}', function ( ${2:dependencies} ) {
+    return {
+        ${3:defineFactoryObject}
+    };
+} );
+]]></content>
+    <tabTrigger>factory</tabTrigger>
+    <scope>source.js</scope>
+    <description>Service Factory</description>
+</snippet>
