@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+controller( '${1:controllerName}', function ( $scope, ${2:otherDependencies} ) {
+    ${2:writeCode}
+} );
+]]></content>
+    <tabTrigger>controller</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
