@@ -5,7 +5,7 @@ it( '${1:descriptionOfTestResult}', function ( done ) {
     done()
 } );
 ]]></content>
-    <tabTrigger>describe</tabTrigger>
+    <tabTrigger>it</tabTrigger>
     <scope>source.js</scope>
     <description>MochaJS It</description>
 </snippet>
