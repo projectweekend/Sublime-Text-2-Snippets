@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+it( '${1:descriptionOfTestResult}', function ( done ) {
+    ${2:writeCode}
+    done()
+} );
+]]></content>
+    <tabTrigger>describe</tabTrigger>
+    <scope>source.js</scope>
+    <description>MochaJS It</description>
+</snippet>
