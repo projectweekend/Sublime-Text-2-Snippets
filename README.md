@@ -1,4 +1,1 @@
-Sublime-Text-2-Snippets
-=======================
-
-A collection of snippets I've made
+A collection of snippets I use in Sublime Text 2
