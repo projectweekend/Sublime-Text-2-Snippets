@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+exports.${1:handlerName} = function ( data, callback ) {
+    var errorOutput = utils.errorOutput( 'validation' );
+    ${2:writeCode}
+    if ( errorOutput.messages.length ) {
+        return callback( errorOutput, null );
+    }
+    return callback( null, data );
+};
+]]></content>
+    <tabTrigger>validation</tabTrigger>
+    <scope>source.js</scope>
+    <description>Node JS Validation Handler</description> 
+</snippet>
