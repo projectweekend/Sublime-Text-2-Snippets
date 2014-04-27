@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+exports.${1:handlerName} = function ( data, callback ) {
+    ${2:writeCode}
+};
+]]></content>
+    <tabTrigger>generic</tabTrigger>
+    <scope>source.js</scope>
+    <description>Node JS Generic Handler</description> 
+</snippet>
