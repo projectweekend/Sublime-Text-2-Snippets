@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-it( '${1:descriptionOfTestResult}', function ( done ) {
+it( '${1:descriptionOfTestResult}', function ( done ) 
+{
     ${2:writeCode}
-    done()
+    done();
 } );
 ]]></content>
     <tabTrigger>it</tabTrigger>

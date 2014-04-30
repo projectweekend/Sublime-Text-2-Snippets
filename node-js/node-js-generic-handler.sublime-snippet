@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-exports.${1:handlerName} = function ( data, callback ) {
+exports.${1:handlerName} = function ( data, callback ) 
+{
     ${2:writeCode}
 };
 ]]></content>
