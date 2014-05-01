@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+var ${1:objectName} = {
+    ${2:objectProperties}
+};
+]]></content>
+    <tabTrigger>object</tabTrigger>
+    <scope>source.js</scope>
+    <description>Object</description>
+</snippet>
