@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-factory( '${1:FactoryName}', function ( ${2:dependencies} ) 
-{
+factory( '${1:FactoryName}', function ( ${2:dependencies} ) {
     return {
         ${3:defineFactoryObject}
     };

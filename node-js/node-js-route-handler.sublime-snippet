@@ -1,25 +1,20 @@
 <snippet>
     <content><![CDATA[
-exports.${1:handlerName} = function ( req, res ) 
-{
+exports.${1:handlerName} = function ( req, res ) {
 
     async.waterfall( [
-        function ( callback ) 
-        {
+        function ( callback ) {
             ValidationManager.create( ${2:inputToValidate}, callback );
         },
-        function ( ${3:outputFromValidationManager}, callback ) 
-        {
+        function ( ${3:outputFromValidationManager}, callback ) {
             DataManager.create( ${3:outputFromValidationManager}, callback );
         },
-        function ( ${4:outputFromDataManager}, callback ) 
-        {
+        function ( ${4:outputFromDataManager}, callback ) {
             OutputManager.create( ${4:outputFromDataManager}, callback );
         }
-    ], function ( err, dataForResponse ) 
+    ], function ( err, dataForResponse )
     {
-        if ( err ) 
-        {
+        if ( err ) {
             return utils.handleRouteError( err, res );
         }
         return res.json( dataForResponse, ${5:httpStatusCode} );
@@ -29,5 +24,5 @@ exports.${1:handlerName} = function ( req, res )
 ]]></content>
     <tabTrigger>route</tabTrigger>
     <scope>source.js</scope>
-    <description>Node JS Route Handler</description> 
+    <description>Node JS Route Handler</description>
 </snippet>

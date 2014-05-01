@@ -1,16 +1,13 @@
 <snippet>
     <content><![CDATA[
 var asyncTasks = {
-    ${1:taskName}: function ( callback ) 
-    {
+    ${1:taskName}: function ( callback ) {
         ${2:writeTaskCode}
     }
 };
 
-async.parallel( asyncTasks, function ( err, data ) 
-{
-    if ( err ) 
-    {
+async.parallel( asyncTasks, function ( err, data ) {
+    if ( err ) {
         // handle error
     }
     // handle data
@@ -18,5 +15,5 @@ async.parallel( asyncTasks, function ( err, data )
 ]]></content>
     <tabTrigger>parallel</tabTrigger>
     <scope>source.js</scope>
-    <description>Async Parallel</description> 
+    <description>Async Parallel</description>
 </snippet>
