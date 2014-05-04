@@ -12,8 +12,7 @@ exports.${1:handlerName} = function ( req, res ) {
         function ( ${4:outputFromDataManager}, callback ) {
             OutputManager.create( ${4:outputFromDataManager}, callback );
         }
-    ], function ( err, dataForResponse )
-    {
+    ], function ( err, dataForResponse ) {
         if ( err ) {
             return utils.handleRouteError( err, res );
         }
