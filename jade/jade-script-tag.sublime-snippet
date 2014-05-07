@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+script(src="${1:path/to/script.js}")
+]]></content>
+    <tabTrigger>script</tabTrigger>
+    <scope>source.jade</scope>
+    <description>Script tag</description>
+</snippet>
