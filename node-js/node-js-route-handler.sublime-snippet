@@ -4,19 +4,19 @@ exports.${1:handlerName} = function ( req, res ) {
 
     async.waterfall( [
         function ( callback ) {
-            ValidationManager.${1:handlerName}( ${2:inputToValidate}, callback );
+            ValidationManager.${2:validationManagerName}( ${3:inputToValidate}, callback );
         },
-        function ( ${3:outputFromValidationManager}, callback ) {
-            DataManager.standard.${1:handlerName}( ${3:outputFromValidationManager}, callback );
+        function ( validatedInput, callback ) {
+            DataManager.standard.${4:dataManagerName}( ${5:dataManagerInput}, callback );
         },
-        function ( ${4:outputFromDataManager}, callback ) {
-            OutputManager.${1:handlerName}( ${4:outputFromDataManager}, callback );
+        function ( ${6:outputFromDataManager}, callback ) {
+            OutputManager.${7:outputManagerName}( ${8:outputManagerInput}, callback );
         }
     ], function ( err, dataForResponse ) {
         if ( err ) {
             return utils.handleRouteError( err, res );
         }
-        return res.json( dataForResponse, ${5:httpStatusCode} );
+        return res.json( dataForResponse, ${9:httpStatusCode} );
     } );
 
 };
