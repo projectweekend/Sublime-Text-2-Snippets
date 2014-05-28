@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+try:
+    ${1:try_this}
+except ${2:exception_to_catch} as e:
+    ${3:do_this}
+]]></content>
+    <tabTrigger>try</tabTrigger>
+    <scope>source.python</scope>
+    <description>Try/Except</description>
+</snippet>
