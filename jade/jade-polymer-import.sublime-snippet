@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+link(rel="import", href="${1:path_to_file}")
+]]></content>
+    <tabTrigger>poly-import</tabTrigger>
+    <scope>source.jade</scope>
+    <description>Polymer Import (link tag)</description>
+</snippet>
