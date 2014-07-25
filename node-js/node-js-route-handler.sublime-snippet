@@ -2,21 +2,36 @@
     <content><![CDATA[
 exports.${1:handlerName} = function ( req, res ) {
 
-    async.waterfall( [
-        function ( callback ) {
-            ValidationManager.${2:validationManagerName}( ${3:inputToValidate}, callback );
-        },
-        function ( validatedInput, callback ) {
-            DataManager.standard.${4:dataManagerName}( ${5:dataManagerInput}, callback );
-        },
-        function ( ${6:outputFromDataManager}, callback ) {
-            OutputManager.${7:outputManagerName}( ${8:outputManagerInput}, callback );
+    var validation = function ( callback ) {
+
+        // write validation stuff
+
+        var errors = req.validationErrors();
+        if ( errors ) {
+            return callback( errors );
         }
-    ], function ( err, dataForResponse ) {
+
+        // populate with validated data
+        var cleanData = {};
+
+        return callback( null, cleanData );
+
+    };
+
+    var data = function ( cleanData, callback ) {
+
+        // do something in the database
+
+    };
+
+    async.waterfall( [ validation, data ], function ( err, dataForResponse ) {
+
         if ( err ) {
-            return utils.handleRouteError( err, res );
+            return handleRouteError( err, res );
         }
-        return res.json( dataForResponse, ${9:httpStatusCode} );
+
+        return res.json( dataForResponse, ${2:httpStatusCode} );
+
     } );
 
 };
