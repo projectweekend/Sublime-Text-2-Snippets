@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+class ${1:name}Serializer(serializers.Serializer):
+    ${2:properties}
+]]></content>
+    <tabTrigger>drf serializer</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF Serializer</description>
+</snippet>

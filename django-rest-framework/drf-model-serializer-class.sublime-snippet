@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+class ${1:modelName}Serializer(serializers.ModelSerializer):
+
+    ${2:properties}
+
+    class Meta:
+        model = ${1:ModelName}
+]]></content>
+    <tabTrigger>drf model serializer</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF Model Serializer</description>
+</snippet>
