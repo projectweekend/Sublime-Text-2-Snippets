@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+class ${1:modelName}(models.Model):
+
+    class Meta:
+        verbose_name = '${1:modelName}'
+        verbose_name_plural = '${1:modelName}s'
+
+    def __unicode__(self):
+        return ${1:unicodeStuff}
+]]></content>
+    <tabTrigger>dj model</tabTrigger>
+    <scope>source.python</scope>
+    <description>Django Model</description>
+</snippet>
