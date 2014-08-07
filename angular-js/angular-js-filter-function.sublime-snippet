@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+filter( "${1:FilterName}", function () {
+    return function ( input, "${2:OptionalParams}" ) {
+        ${3:defineFilterFunctionality}
+    };
+} );
+]]></content>
+    <tabTrigger>filter</tabTrigger>
+    <scope>source.js</scope>
+    <description>Custom Filter</description>
+</snippet>
