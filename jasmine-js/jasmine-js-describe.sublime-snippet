@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+describe( '${1:descriptionOfTest}', function () {
+    ${2:writeCode}
+} );
+]]></content>
+    <tabTrigger>describe</tabTrigger>
+    <scope>source.js</scope>
+    <description>JasmineJS Describe</description>
+</snippet>
