@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-controller( '${1:controllerName}', function ( $scope, ${2:otherDependencies} ) {
-    ${3:writeCode}
-} );
+controller( "${1:controllerName}", [ "$scope" function ( $scope ) {
+    ${2:writeCode}
+} ] );
 ]]></content>
     <tabTrigger>controller</tabTrigger>
     <scope>source.js</scope>

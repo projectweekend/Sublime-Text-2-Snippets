@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-factory( '${1:FactoryName}', function ( ${2:dependencies} ) {
+factory( '${1:FactoryName}', [ "${2:dependencies}", function ( ${2:dependencies} ) {
     return {
         ${3:defineFactoryObject}
     };
-} );
+} ] );
 ]]></content>
     <tabTrigger>factory</tabTrigger>
     <scope>source.js</scope>
