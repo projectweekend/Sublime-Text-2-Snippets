@@ -8,5 +8,5 @@ factory( '${1:FactoryName}', [ "${2:dependencies}", function ( ${2:dependencies}
 ]]></content>
     <tabTrigger>factory</tabTrigger>
     <scope>source.js</scope>
-    <description>Service Factory</description>
+    <description>Angular Service Factory</description>
 </snippet>
