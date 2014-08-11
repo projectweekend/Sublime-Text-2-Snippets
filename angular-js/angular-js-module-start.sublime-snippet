@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+var ${1:moduleName} = angular.module( "${2:appNameName}.${3:controllerName}", [] );
+]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.js</scope>
+    <description>Angular Module</description>
+</snippet>
