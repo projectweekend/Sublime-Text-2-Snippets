@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-controller( "${1:controllerName}", [ "$scope" function ( $scope ) {
+controller( "${1:controllerName}", [ "$scope", function ( $scope ) {
     ${2:writeCode}
 } ] );
 ]]></content>
