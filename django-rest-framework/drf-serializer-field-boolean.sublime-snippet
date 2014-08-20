@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.BooleanField()
+]]></content>
+    <tabTrigger>drf booleanfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF BooleanField</description>
+</snippet>

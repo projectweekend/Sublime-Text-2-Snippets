@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.SlugField()
+]]></content>
+    <tabTrigger>drf slugfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF SlugField</description>
+</snippet>

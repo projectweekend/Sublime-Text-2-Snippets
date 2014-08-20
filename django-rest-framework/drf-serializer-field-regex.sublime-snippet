@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.RegexField()
+]]></content>
+    <tabTrigger>drf regexfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF RegexField</description>
+</snippet>

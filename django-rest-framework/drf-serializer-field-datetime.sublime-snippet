@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.DateTimeField()
+]]></content>
+    <tabTrigger>drf datetimefield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF DatetimeField</description>
+</snippet>

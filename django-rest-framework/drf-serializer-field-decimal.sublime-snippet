@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.DecimalField()
+]]></content>
+    <tabTrigger>drf decimalfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF DecimalField</description>
+</snippet>

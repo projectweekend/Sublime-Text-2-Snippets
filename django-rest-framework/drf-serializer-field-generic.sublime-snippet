@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.Field(source='${2:source_name}')
+]]></content>
+    <tabTrigger>drf genericfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF GenericField</description>
+</snippet>

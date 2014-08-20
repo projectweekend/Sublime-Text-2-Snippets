@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.SerializerMethodField('${2:method_name}')
+]]></content>
+    <tabTrigger>drf methodfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF MethodField</description>
+</snippet>

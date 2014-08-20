@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.IntegerField()
+]]></content>
+    <tabTrigger>drf integerfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF IntegerField</description>
+</snippet>

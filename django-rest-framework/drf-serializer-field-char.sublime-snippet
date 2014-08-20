@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name_of_field} = serializers.CharField()
+]]></content>
+    <tabTrigger>drf charfield</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF CharField</description>
+</snippet>
