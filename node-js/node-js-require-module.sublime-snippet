@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var ${1:importName} = require( "${2:moduleNameOrPath}"" );
+var ${1:importName} = require( "${2:moduleNameOrPath}" );
 ]]></content>
     <tabTrigger>require</tabTrigger>
     <scope>source.js</scope>
