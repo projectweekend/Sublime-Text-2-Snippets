@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+from rest_framework import serializers
+
+from  ${1:package}.models import ${2:Model}
+]]></content>
+    <tabTrigger>drf import serializers</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF Import Serializers</description>
+</snippet>

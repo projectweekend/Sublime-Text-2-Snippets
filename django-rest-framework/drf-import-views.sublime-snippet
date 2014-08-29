@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+from rest_framework import generics, status
+from rest_framework.response import Response
+from rest_framework.permissions import AllowAny
+
+from  ${1:package}.serializers import ${2:Serializer}
+from  ${1:package}.mixins import ${3:Mixin}
+]]></content>
+    <tabTrigger>drf import views</tabTrigger>
+    <scope>source.python</scope>
+    <description>DRF Import Views</description>
+</snippet>
