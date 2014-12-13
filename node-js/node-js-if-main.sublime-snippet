@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+if ( require.main === module ) {
+    main();
+}
+]]></content>
+    <tabTrigger>if main</tabTrigger>
+    <scope>source.js</scope>
+    <description>Node JS If Main</description>
+</snippet>
