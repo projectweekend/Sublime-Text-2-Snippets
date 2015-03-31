@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+function ${1:ChildClass} () {
+
+    ${2:ParentClass}.call( this );
+
+}
+
+util.inherits( ${1:ChildClass}, ${2:ParentClass} );
+]]></content>
+    <tabTrigger>sub-class</tabTrigger>
+    <scope>source.js</scope>
+    <description>Node JS Sub Class</description>
+</snippet>
