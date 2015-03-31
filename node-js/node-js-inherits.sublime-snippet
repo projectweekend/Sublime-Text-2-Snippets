@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+util.inherits( ${1:ChildClass}, ${2:ParentClass} );
+]]></content>
+    <tabTrigger>inherits</tabTrigger>
+    <scope>source.js</scope>
+    <description>Node JS Util Inherits</description>
+</snippet>
