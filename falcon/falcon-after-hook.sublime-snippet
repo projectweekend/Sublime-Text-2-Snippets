@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@falcon.after(${1:function})
+]]></content>
+    <tabTrigger>@after</tabTrigger>
+    <scope>source.python</scope>
+    <description>Falcon after hook</description>
+</snippet>

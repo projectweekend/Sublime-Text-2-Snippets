@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ItemName}Item(object):
+
+    def on_get(self, req, res, ${2:URLParams}):
+        pass
+
+    def on_put(self, req, res, ${2:URLParams}):
+        pass
+
+    def on_delete(self, req, res, ${2:URLParams}):
+        pass
+]]></content>
+    <tabTrigger>falcon item</tabTrigger>
+    <scope>source.python</scope>
+    <description>Falcon item handler</description>
+</snippet>

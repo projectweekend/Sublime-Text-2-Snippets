@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ItemName}Collection(object):
+
+    def on_post(self, req, res):
+        pass
+
+    def on_get(self, req, res):
+        pass
+]]></content>
+    <tabTrigger>falcon collection</tabTrigger>
+    <scope>source.python</scope>
+    <description>Falcon collection handler</description>
+</snippet>

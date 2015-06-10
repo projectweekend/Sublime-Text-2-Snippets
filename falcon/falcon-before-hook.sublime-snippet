@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@falcon.before(${1:function})
+]]></content>
+    <tabTrigger>@before</tabTrigger>
+    <scope>source.python</scope>
+    <description>Falcon before hook</description>
+</snippet>
