@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName}(${2:ParentClass}):
+
+    def __init__(self, ${3:Args}):
+        super(${1:ClassName}, self).__init__()
+        ${4:Props}
+
+    def __repr__(self):
+        return "<${1:ClassName}>"
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.python</scope>
+    <description>Python class</description>
+</snippet>
