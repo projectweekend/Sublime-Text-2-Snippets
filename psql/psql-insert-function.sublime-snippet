@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[
+CREATE FUNCTION ${1:sp_insert}
+(
+    -- params here
+)
+
+RETURNS TABLE
+(
+    resultDoc JSON
+) AS
+
+$$
+BEGIN
+    RETURN      QUERY
+    WITH i as (
+        INSERT INTO     table_name
+                        (
+                            column_1,
+                            column_2
+                        )
+        VALUES          (
+                            value_1,
+                            value_2
+                        )
+        RETURNING       table_name.column_1,
+                        table_name.column_2,
+    )
+    SELECT      ROW_TO_JSON(i.*)
+    FROM        i;
+END;
+$$
+
+LANGUAGE plpgsql;
+
+]]></content>
+    <tabTrigger>psqlf insert</tabTrigger>
+    <scope>source.sql</scope>
+</snippet>
