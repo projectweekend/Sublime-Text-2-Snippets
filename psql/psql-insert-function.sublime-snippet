@@ -10,7 +10,7 @@ RETURNS TABLE
     resultDoc JSON
 ) AS
 
-$$
+\$\$
 BEGIN
     RETURN      QUERY
     WITH i as (
@@ -29,7 +29,7 @@ BEGIN
     SELECT      ROW_TO_JSON(i.*)
     FROM        i;
 END;
-$$
+\$\$
 
 LANGUAGE plpgsql;
 
